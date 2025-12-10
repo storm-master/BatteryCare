@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "toggle_onBatteryCare.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
