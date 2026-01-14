@@ -6,11 +6,60 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7E7B09302F169B4C00B59B19 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B092F2F169B4C00B59B19 /* Alamofire */; };
+		7E7B093C2F169B5700B59B19 /* NotificationService.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7E7B09352F169B5700B59B19 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E7B09462F169DED00B59B19 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09452F169DED00B59B19 /* FirebaseAnalytics */; };
+		7E7B09482F169DED00B59B19 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09472F169DED00B59B19 /* FirebaseAnalyticsIdentitySupport */; };
+		7E7B094A2F169DED00B59B19 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09492F169DED00B59B19 /* FirebaseCore */; };
+		7E7B094C2F169DED00B59B19 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B094B2F169DED00B59B19 /* FirebaseInAppMessaging-Beta */; };
+		7E7B094E2F169DED00B59B19 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B094D2F169DED00B59B19 /* FirebaseMessaging */; };
+		7E7B09502F169DED00B59B19 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B094F2F169DED00B59B19 /* FirebaseRemoteConfig */; };
+		7E7B09532F169E3200B59B19 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09522F169E3200B59B19 /* OneSignalExtension */; };
+		7E7B09552F169E3200B59B19 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09542F169E3200B59B19 /* OneSignalFramework */; };
+		7E7B09572F169E3200B59B19 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09562F169E3200B59B19 /* OneSignalInAppMessages */; };
+		7E7B095A2F169E5200B59B19 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09592F169E5200B59B19 /* AppsFlyerLib-Static */; };
+		7E7B095C2F175EA500B59B19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B095B2F175EA500B59B19 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7B093A2F169B5700B59B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45BD3AF2EDF774300B00820 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7B09342F169B5700B59B19;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E7B09412F169B5700B59B19 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7E7B093C2F169B5700B59B19 /* NotificationService.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7E7B09352F169B5700B59B19 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B095B2F175EA500B59B19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F45BD3B72EDF774300B00820 /* BatteryCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7E7B09402F169B5700B59B19 /* Exceptions for "NotificationService" folder in "NotificationService" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7E7B09342F169B5700B59B19 /* NotificationService */;
+		};
 		F45BD6572EE0D92D00B00820 /* Exceptions for "BatteryCare" folder in "BatteryCare" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -21,6 +70,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E7B09362F169B5700B59B19 /* NotificationService */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7E7B09402F169B5700B59B19 /* Exceptions for "NotificationService" folder in "NotificationService" target */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
 		F45BD3B92EDF774300B00820 /* BatteryCare */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -32,10 +89,28 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7E7B09322F169B5700B59B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B09532F169E3200B59B19 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F45BD3B42EDF774300B00820 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7B09552F169E3200B59B19 /* OneSignalFramework in Frameworks */,
+				7E7B095A2F169E5200B59B19 /* AppsFlyerLib-Static in Frameworks */,
+				7E7B094E2F169DED00B59B19 /* FirebaseMessaging in Frameworks */,
+				7E7B09462F169DED00B59B19 /* FirebaseAnalytics in Frameworks */,
+				7E7B09572F169E3200B59B19 /* OneSignalInAppMessages in Frameworks */,
+				7E7B09302F169B4C00B59B19 /* Alamofire in Frameworks */,
+				7E7B09502F169DED00B59B19 /* FirebaseRemoteConfig in Frameworks */,
+				7E7B094A2F169DED00B59B19 /* FirebaseCore in Frameworks */,
+				7E7B09482F169DED00B59B19 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				7E7B094C2F169DED00B59B19 /* FirebaseInAppMessaging-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +120,9 @@
 		F45BD3AE2EDF774300B00820 = {
 			isa = PBXGroup;
 			children = (
+				7E7B095B2F175EA500B59B19 /* GoogleService-Info.plist */,
 				F45BD3B92EDF774300B00820 /* BatteryCare */,
+				7E7B09362F169B5700B59B19 /* NotificationService */,
 				F45BD3B82EDF774300B00820 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				F45BD3B72EDF774300B00820 /* BatteryCare.app */,
+				7E7B09352F169B5700B59B19 /* NotificationService.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +139,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7E7B09342F169B5700B59B19 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7B093D2F169B5700B59B19 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				7E7B09312F169B5700B59B19 /* Sources */,
+				7E7B09322F169B5700B59B19 /* Frameworks */,
+				7E7B09332F169B5700B59B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E7B09362F169B5700B59B19 /* NotificationService */,
+			);
+			name = NotificationService;
+			packageProductDependencies = (
+				7E7B09522F169E3200B59B19 /* OneSignalExtension */,
+			);
+			productName = NotificationService;
+			productReference = 7E7B09352F169B5700B59B19 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		F45BD3B62EDF774300B00820 /* BatteryCare */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F45BD3C22EDF774500B00820 /* Build configuration list for PBXNativeTarget "BatteryCare" */;
@@ -68,16 +169,28 @@
 				F45BD3B32EDF774300B00820 /* Sources */,
 				F45BD3B42EDF774300B00820 /* Frameworks */,
 				F45BD3B52EDF774300B00820 /* Resources */,
+				7E7B09412F169B5700B59B19 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7E7B093B2F169B5700B59B19 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				F45BD3B92EDF774300B00820 /* BatteryCare */,
 			);
 			name = BatteryCare;
 			packageProductDependencies = (
+				7E7B092F2F169B4C00B59B19 /* Alamofire */,
+				7E7B09452F169DED00B59B19 /* FirebaseAnalytics */,
+				7E7B09472F169DED00B59B19 /* FirebaseAnalyticsIdentitySupport */,
+				7E7B09492F169DED00B59B19 /* FirebaseCore */,
+				7E7B094B2F169DED00B59B19 /* FirebaseInAppMessaging-Beta */,
+				7E7B094D2F169DED00B59B19 /* FirebaseMessaging */,
+				7E7B094F2F169DED00B59B19 /* FirebaseRemoteConfig */,
+				7E7B09542F169E3200B59B19 /* OneSignalFramework */,
+				7E7B09562F169E3200B59B19 /* OneSignalInAppMessages */,
+				7E7B09592F169E5200B59B19 /* AppsFlyerLib-Static */,
 			);
 			productName = BatteryCare;
 			productReference = F45BD3B72EDF774300B00820 /* BatteryCare.app */;
@@ -90,9 +203,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2610;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2610;
 				TargetAttributes = {
+					7E7B09342F169B5700B59B19 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
 					F45BD3B62EDF774300B00820 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
@@ -107,27 +223,49 @@
 			);
 			mainGroup = F45BD3AE2EDF774300B00820;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				7E7B092E2F169B4C00B59B19 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7E7B09512F169E3200B59B19 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				7E7B09582F169E5200B59B19 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F45BD3B82EDF774300B00820 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F45BD3B62EDF774300B00820 /* BatteryCare */,
+				7E7B09342F169B5700B59B19 /* NotificationService */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F45BD3B52EDF774300B00820 /* Resources */ = {
+		7E7B09332F169B5700B59B19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F45BD3B52EDF774300B00820 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7B095C2F175EA500B59B19 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7E7B09312F169B5700B59B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F45BD3B32EDF774300B00820 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,7 +275,84 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7E7B093B2F169B5700B59B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7B09342F169B5700B59B19 /* NotificationService */;
+			targetProxy = 7E7B093A2F169B5700B59B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		7E7B093E2F169B5700B59B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.battery.care.app.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E7B093F2F169B5700B59B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = NotificationService/NotificationService.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.battery.care.app.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		F45BD3C02EDF774500B00820 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatteryCare/BatteryCare.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -271,6 +487,8 @@
 				INFOPLIST_FILE = BatteryCare/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BatteryCare;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to save images to your photo library.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to provide personalized ads and improve the app experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -290,7 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.battery.care.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -316,6 +534,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BatteryCare/BatteryCare.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
@@ -326,6 +545,8 @@
 				INFOPLIST_FILE = BatteryCare/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = BatteryCare;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This app needs access to save images to your photo library.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "We use your data to provide personalized ads and improve the app experience.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -345,7 +566,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.1;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.battery.care.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -369,6 +590,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7E7B093D2F169B5700B59B19 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7B093E2F169B5700B59B19 /* Debug */,
+				7E7B093F2F169B5700B59B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F45BD3B22EDF774300B00820 /* Build configuration list for PBXProject "BatteryCare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -388,6 +618,99 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E7B092E2F169B4C00B59B19 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.11.0;
+			};
+		};
+		7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+		7E7B09512F169E3200B59B19 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = exactVersion;
+				version = 5.2.15;
+			};
+		};
+		7E7B09582F169E5200B59B19 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.17.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E7B092F2F169B4C00B59B19 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B092E2F169B4C00B59B19 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		7E7B09452F169DED00B59B19 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7E7B09472F169DED00B59B19 /* FirebaseAnalyticsIdentitySupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsIdentitySupport;
+		};
+		7E7B09492F169DED00B59B19 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		7E7B094B2F169DED00B59B19 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		7E7B094D2F169DED00B59B19 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		7E7B094F2F169DED00B59B19 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09442F169DED00B59B19 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		7E7B09522F169E3200B59B19 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09512F169E3200B59B19 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalExtension;
+		};
+		7E7B09542F169E3200B59B19 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09512F169E3200B59B19 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		7E7B09562F169E3200B59B19 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09512F169E3200B59B19 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalInAppMessages;
+		};
+		7E7B09592F169E5200B59B19 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E7B09582F169E5200B59B19 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F45BD3AF2EDF774300B00820 /* Project object */;
 }

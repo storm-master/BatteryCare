@@ -1,0 +1,11 @@
+{
+  "aps": {
+    "alert": {
+      "title": "Hello",
+      "body": "This is a test notification from the terminal!"
+    },
+    "badge": 1
+  },
+  "Simulator Target Bundle": "com.battery.care.app"
+}
+
