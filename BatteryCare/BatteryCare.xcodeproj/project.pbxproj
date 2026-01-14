@@ -19,7 +19,7 @@
 		7E7B09552F169E3200B59B19 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09542F169E3200B59B19 /* OneSignalFramework */; };
 		7E7B09572F169E3200B59B19 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09562F169E3200B59B19 /* OneSignalInAppMessages */; };
 		7E7B095A2F169E5200B59B19 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 7E7B09592F169E5200B59B19 /* AppsFlyerLib-Static */; };
-		7E7B095C2F175EA500B59B19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B095B2F175EA500B59B19 /* GoogleService-Info.plist */; };
+		7E7B0A092F176D3A00B59B19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E7B0A082F176D3A00B59B19 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		7E7B09352F169B5700B59B19 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E7B095B2F175EA500B59B19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E7B0A082F176D3A00B59B19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F45BD3B72EDF774300B00820 /* BatteryCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -120,7 +120,7 @@
 		F45BD3AE2EDF774300B00820 = {
 			isa = PBXGroup;
 			children = (
-				7E7B095B2F175EA500B59B19 /* GoogleService-Info.plist */,
+				7E7B0A082F176D3A00B59B19 /* GoogleService-Info.plist */,
 				F45BD3B92EDF774300B00820 /* BatteryCare */,
 				7E7B09362F169B5700B59B19 /* NotificationService */,
 				F45BD3B82EDF774300B00820 /* Products */,
@@ -252,7 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E7B095C2F175EA500B59B19 /* GoogleService-Info.plist in Resources */,
+				7E7B0A092F176D3A00B59B19 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +480,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BatteryCare/BatteryCare.entitlements;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
@@ -538,7 +538,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = BatteryCare/BatteryCare.entitlements;
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
